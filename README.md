@@ -1,20 +1,84 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="MediQR Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# MediQR – Smart Health Record Management System
 
-This contains everything you need to run your app locally.
+MediQR is a secure, QR-based digital health record management platform designed to simplify how medical data is stored, accessed, and shared.  
+Patients can manage their medical records digitally, and hospitals or healthcare providers can instantly access them by scanning a QR code.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZvbiaEB0BPFvItj2WTqz4MPTQiE2EHP0
+---
 
-## Run Locally
+## 📌 Problem Statement
 
-**Prerequisites:**  Node.js
+Traditional medical record systems rely heavily on paper documents and disconnected digital systems.  
+This causes:
+- Loss of important medical history
+- Delays in emergency situations
+- Difficulty in accessing past reports
+- Poor coordination between hospitals
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 💡 Solution Overview
+
+MediQR solves these problems by providing:
+- A **centralized digital health record system**
+- **QR code–based instant access** to patient records
+- Separate interfaces for **patients** and **hospitals**
+- Fast, simple, and secure access to medical data
+
+---
+
+## ✨ Key Features
+
+- 🔐 Secure digital storage of health records
+- 📱 QR code generation for each patient
+- 📷 Camera-based QR scanning
+- 👤 Patient registration and login
+- 🏥 Hospital dashboard for record access
+- ⚡ Fast and responsive UI
+- 🧩 Modular and scalable frontend architecture
+
+---
+
+## 🛠️ Technology Stack
+
+- **Frontend:** React (TypeScript)
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **QR Code:** qrcode.react, html5-qrcode
+- **Language:** TypeScript
+- **Package Manager:** npm
+
+---
+
+## 📦 Prerequisites
+
+Before running the project, ensure you have:
+
+- **Node.js** (v18 or higher)
+- **npm** (comes with Node.js)
+
+Check installation:
+```bash
+node -v
+npm -v
+
+Run the app: npm run dev
+
+mediqr/
+│
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Application pages
+│   ├── services/          # Authentication & helpers
+│   ├── types/             # TypeScript types
+│   ├── App.tsx            # Main app component
+│   └── index.tsx          # Entry point
+│
+├── public/
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
