@@ -1,9 +1,5 @@
 # MediQR – Smart Health Record Management System
 
-<div align="center">
-  <img width="1200" height="475" alt="MediQR Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 MediQR is a secure, QR-based digital health record management platform designed to simplify how medical data is stored, accessed, and shared.  
 Patients can manage their medical records digitally, and hospitals or healthcare providers can instantly access them by scanning a QR code.
 
