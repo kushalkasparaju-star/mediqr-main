@@ -1,0 +1,7 @@
+{
+  "name": "MediQR",
+  "description": "A smart, QR-based health record management system that centralizes medical data and allows instant access through secure QR codes. Patients can manage their health records, and hospitals can securely access them via a simple scan.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
