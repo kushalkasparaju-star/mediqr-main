@@ -1,8 +1,8 @@
+# MediQR – Smart Health Record Management System
+
 <div align="center">
   <img width="1200" height="475" alt="MediQR Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
-
-# MediQR – Smart Health Record Management System
 
 MediQR is a secure, QR-based digital health record management platform designed to simplify how medical data is stored, accessed, and shared.  
 Patients can manage their medical records digitally, and hospitals or healthcare providers can instantly access them by scanning a QR code.
@@ -12,33 +12,35 @@ Patients can manage their medical records digitally, and hospitals or healthcare
 ## 📌 Problem Statement
 
 Traditional medical record systems rely heavily on paper documents and disconnected digital systems.  
-This causes:
+This results in:
+
 - Loss of important medical history
-- Delays in emergency situations
-- Difficulty in accessing past reports
-- Poor coordination between hospitals
+- Delays during emergencies
+- Difficulty in accessing previous medical reports
+- Poor coordination between hospitals and healthcare providers
 
 ---
 
 ## 💡 Solution Overview
 
-MediQR solves these problems by providing:
+MediQR addresses these challenges by providing:
+
 - A **centralized digital health record system**
 - **QR code–based instant access** to patient records
-- Separate interfaces for **patients** and **hospitals**
-- Fast, simple, and secure access to medical data
+- Separate dashboards for **patients** and **hospitals**
+- A fast, simple, and user-friendly interface
 
 ---
 
 ## ✨ Key Features
 
-- 🔐 Secure digital storage of health records
+- 🔐 Secure digital storage of medical records
 - 📱 QR code generation for each patient
-- 📷 Camera-based QR scanning
+- 📷 QR code scanning using device camera
 - 👤 Patient registration and login
-- 🏥 Hospital dashboard for record access
-- ⚡ Fast and responsive UI
-- 🧩 Modular and scalable frontend architecture
+- 🏥 Hospital dashboard for accessing records
+- ⚡ Fast and responsive user interface
+- 🧩 Modular and scalable frontend design
 
 ---
 
@@ -47,42 +49,19 @@ MediQR solves these problems by providing:
 - **Frontend:** React (TypeScript)
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS
-- **QR Code:** qrcode.react, html5-qrcode
-- **Language:** TypeScript
+- **QR Libraries:** qrcode.react, html5-qrcode
 - **Package Manager:** npm
 
 ---
 
 ## 📦 Prerequisites
 
-Before running the project, ensure you have:
+Ensure the following are installed on your system:
 
-- **Node.js** (v18 or higher)
-- **npm** (comes with Node.js)
+- **Node.js** (v18 or later)
+- **npm** (included with Node.js)
 
 Check installation:
 ```bash
 node -v
 npm -v
-
-Run the Application
-npm install
-npm run dev
-
-
-Project Structure:
-mediqr/
-│
-├── src/
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # Application pages
-│   ├── services/          # Authentication & helpers
-│   ├── types/             # TypeScript types
-│   ├── App.tsx            # Main app component
-│   └── index.tsx          # Entry point
-│
-├── public/
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
