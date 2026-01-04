@@ -1,3 +1,6 @@
+<div align="center">
+  <img width="1200" height="475" alt="MediQR Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
 # MediQR – Smart Health Record Management System
 
@@ -62,8 +65,12 @@ Check installation:
 node -v
 npm -v
 
-Run the app: npm run dev
+Run the Application
+npm install
+npm run dev
 
+
+Project Structure:
 mediqr/
 │
 ├── src/
